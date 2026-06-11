@@ -1,10 +1,19 @@
 # ninja log v7
-0	10	1779133340166145190	src/CMakeFiles/stdc.dir/stdc/core/core.c.o	48da1f1a3eb80a59
-13	26	1779466237401415638	src/libstdc.a	cc1662c47b28c630
-1	13	1779466237389066602	src/CMakeFiles/stdc.dir/stdc/type/bool.c.o	56e8a7d7b1fbf6fb
-1	13	1779466237390257884	src/CMakeFiles/stdc.dir/stdc/type/none.c.o	bf1aca04e48ffb6b
+0	13	1781204744395059682	src/CMakeFiles/stdc.dir/stdc/core/core.c.o	95cd54aca51c791a
+13	27	1781204744408059907	src/libstdc.a	1f6c0e4402484e9d
+0	13	1781204744396232058	src/CMakeFiles/stdc.dir/stdc/type/bool.c.o	d16f2d3e19f6ec93
+1	11	1781204744396754186	src/CMakeFiles/stdc.dir/stdc/type/none.c.o	e97f9826a87e7e57
 1	12	1779466237390180207	src/CMakeFiles/stdc.dir/stdc/type/integer.c.o	4b80ee5c05b2f1ab
-1	12	1779466237390017600	src/CMakeFiles/stdc.dir/stdc/type/byte.c.o	4d9a17af696e6465
-1	12	1779466237390100948	src/CMakeFiles/stdc.dir/stdc/type/char.c.o	85fcfc81dd0c7c2e
+0	13	1781204744396309314	src/CMakeFiles/stdc.dir/stdc/type/byte.c.o	303434f54dec0992
+1	13	1781204744396427608	src/CMakeFiles/stdc.dir/stdc/type/char.c.o	548986d414c658ab
 1	14	1779466237390327476	tests/CMakeFiles/type_enum_test.dir/type_enum_test.c.o	1109254686e00ce9
 26	42	1779466237414066892	tests/type_enum_test	3321b55d07eb5dfb
+1	13	1781204744396583513	src/CMakeFiles/stdc.dir/stdc/type/sinteger.c.o	249a20b846982770
+1	13	1781204744396494174	src/CMakeFiles/stdc.dir/stdc/type/uinteger.c.o	65ad7e9221bc889e
+0	11	1781204744396079249	src/CMakeFiles/stdc.dir/stdc/type/category.c.o	495093e6cf801f5e
+1	12	1781204744396852192	src/CMakeFiles/stdc.dir/stdc/type/any.c.o	a0c4135f401e8c72
+0	12	1781204744396166695	src/CMakeFiles/stdc.dir/stdc/type/type.c.o	605f263749ea4362
+0	12	1781204744396006582	src/CMakeFiles/stdc.dir/stdc/type/base.c.o	12168d073c86703a
+1	13	1781204744396683422	src/CMakeFiles/stdc.dir/stdc/type/float.c.o	2299ec3d1295d91e
+0	11	1781204816159299936	src/CMakeFiles/stdc.dir/stdc/type/bool.c.o	d16f2d3e19f6ec93
+11	23	1781204816170300126	src/libstdc.a	1f6c0e4402484e9d

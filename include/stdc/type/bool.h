@@ -7,7 +7,7 @@
 /* --- Boolean type --- */
 #if defined(__GNUC__) || defined(__clang__)
 
-#define STDC_DEF_BOOL_LIMITS(type) \
+#define STDC_DEF_BOOL_LIMITS(type)      \
   static constexpr type type##_min = 0; \
   static constexpr type type##_max = 1;
 

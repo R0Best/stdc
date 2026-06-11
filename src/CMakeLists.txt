@@ -1,10 +1,17 @@
 add_library(stdc STATIC
     stdc/core/core.c
+
+    stdc/type/base.c
+    stdc/type/category.c
+    stdc/type/type.c
     stdc/type/bool.c
     stdc/type/byte.c
     stdc/type/char.c
-    stdc/type/integer.c
+    stdc/type/uinteger.c
+    stdc/type/sinteger.c
+    stdc/type/float.c
     stdc/type/none.c
+    stdc/type/any.c
 )
 
 target_include_directories(stdc

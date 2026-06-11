@@ -7,6 +7,24 @@
 },
 {
   "directory": "/home/robert/Personal/Projects/stdc/build/release-lto",
+  "command": "/usr/bin/clang -I/home/robert/Personal/Projects/stdc/include -I/home/robert/Personal/Projects/stdc/src -O3 -DNDEBUG -std=c23 -flto=thin -fPIC -Wall -Wextra -Wpedantic -Werror -Wno-pre-c23-compat -Wno-c++98-compat -Wcast-align -Wconversion -Wshadow-all -Wundef -Wdouble-promotion -flto=thin -fstrict-aliasing -Wstrict-aliasing=2 -fno-stack-protector -ffreestanding -nostdlibinc -fno-builtin -Weverything -Wno-padded -Wno-covered-switch-default -Wno-unsafe-buffer-usage -ftrivial-auto-var-init=zero -fno-common -Wvla -fsanitize=undefined -fno-sanitize=function -fsanitize=kcfi -fsanitize-trap=all -fcf-protection=full -o src/CMakeFiles/stdc.dir/stdc/type/base.c.o -c /home/robert/Personal/Projects/stdc/src/stdc/type/base.c",
+  "file": "/home/robert/Personal/Projects/stdc/src/stdc/type/base.c",
+  "output": "/home/robert/Personal/Projects/stdc/build/release-lto/src/CMakeFiles/stdc.dir/stdc/type/base.c.o"
+},
+{
+  "directory": "/home/robert/Personal/Projects/stdc/build/release-lto",
+  "command": "/usr/bin/clang -I/home/robert/Personal/Projects/stdc/include -I/home/robert/Personal/Projects/stdc/src -O3 -DNDEBUG -std=c23 -flto=thin -fPIC -Wall -Wextra -Wpedantic -Werror -Wno-pre-c23-compat -Wno-c++98-compat -Wcast-align -Wconversion -Wshadow-all -Wundef -Wdouble-promotion -flto=thin -fstrict-aliasing -Wstrict-aliasing=2 -fno-stack-protector -ffreestanding -nostdlibinc -fno-builtin -Weverything -Wno-padded -Wno-covered-switch-default -Wno-unsafe-buffer-usage -ftrivial-auto-var-init=zero -fno-common -Wvla -fsanitize=undefined -fno-sanitize=function -fsanitize=kcfi -fsanitize-trap=all -fcf-protection=full -o src/CMakeFiles/stdc.dir/stdc/type/category.c.o -c /home/robert/Personal/Projects/stdc/src/stdc/type/category.c",
+  "file": "/home/robert/Personal/Projects/stdc/src/stdc/type/category.c",
+  "output": "/home/robert/Personal/Projects/stdc/build/release-lto/src/CMakeFiles/stdc.dir/stdc/type/category.c.o"
+},
+{
+  "directory": "/home/robert/Personal/Projects/stdc/build/release-lto",
+  "command": "/usr/bin/clang -I/home/robert/Personal/Projects/stdc/include -I/home/robert/Personal/Projects/stdc/src -O3 -DNDEBUG -std=c23 -flto=thin -fPIC -Wall -Wextra -Wpedantic -Werror -Wno-pre-c23-compat -Wno-c++98-compat -Wcast-align -Wconversion -Wshadow-all -Wundef -Wdouble-promotion -flto=thin -fstrict-aliasing -Wstrict-aliasing=2 -fno-stack-protector -ffreestanding -nostdlibinc -fno-builtin -Weverything -Wno-padded -Wno-covered-switch-default -Wno-unsafe-buffer-usage -ftrivial-auto-var-init=zero -fno-common -Wvla -fsanitize=undefined -fno-sanitize=function -fsanitize=kcfi -fsanitize-trap=all -fcf-protection=full -o src/CMakeFiles/stdc.dir/stdc/type/type.c.o -c /home/robert/Personal/Projects/stdc/src/stdc/type/type.c",
+  "file": "/home/robert/Personal/Projects/stdc/src/stdc/type/type.c",
+  "output": "/home/robert/Personal/Projects/stdc/build/release-lto/src/CMakeFiles/stdc.dir/stdc/type/type.c.o"
+},
+{
+  "directory": "/home/robert/Personal/Projects/stdc/build/release-lto",
   "command": "/usr/bin/clang -I/home/robert/Personal/Projects/stdc/include -I/home/robert/Personal/Projects/stdc/src -O3 -DNDEBUG -std=c23 -flto=thin -fPIC -Wall -Wextra -Wpedantic -Werror -Wno-pre-c23-compat -Wno-c++98-compat -Wcast-align -Wconversion -Wshadow-all -Wundef -Wdouble-promotion -flto=thin -fstrict-aliasing -Wstrict-aliasing=2 -fno-stack-protector -ffreestanding -nostdlibinc -fno-builtin -Weverything -Wno-padded -Wno-covered-switch-default -Wno-unsafe-buffer-usage -ftrivial-auto-var-init=zero -fno-common -Wvla -fsanitize=undefined -fno-sanitize=function -fsanitize=kcfi -fsanitize-trap=all -fcf-protection=full -o src/CMakeFiles/stdc.dir/stdc/type/bool.c.o -c /home/robert/Personal/Projects/stdc/src/stdc/type/bool.c",
   "file": "/home/robert/Personal/Projects/stdc/src/stdc/type/bool.c",
   "output": "/home/robert/Personal/Projects/stdc/build/release-lto/src/CMakeFiles/stdc.dir/stdc/type/bool.c.o"
@@ -25,9 +43,21 @@
 },
 {
   "directory": "/home/robert/Personal/Projects/stdc/build/release-lto",
-  "command": "/usr/bin/clang -I/home/robert/Personal/Projects/stdc/include -I/home/robert/Personal/Projects/stdc/src -O3 -DNDEBUG -std=c23 -flto=thin -fPIC -Wall -Wextra -Wpedantic -Werror -Wno-pre-c23-compat -Wno-c++98-compat -Wcast-align -Wconversion -Wshadow-all -Wundef -Wdouble-promotion -flto=thin -fstrict-aliasing -Wstrict-aliasing=2 -fno-stack-protector -ffreestanding -nostdlibinc -fno-builtin -Weverything -Wno-padded -Wno-covered-switch-default -Wno-unsafe-buffer-usage -ftrivial-auto-var-init=zero -fno-common -Wvla -fsanitize=undefined -fno-sanitize=function -fsanitize=kcfi -fsanitize-trap=all -fcf-protection=full -o src/CMakeFiles/stdc.dir/stdc/type/integer.c.o -c /home/robert/Personal/Projects/stdc/src/stdc/type/integer.c",
-  "file": "/home/robert/Personal/Projects/stdc/src/stdc/type/integer.c",
-  "output": "/home/robert/Personal/Projects/stdc/build/release-lto/src/CMakeFiles/stdc.dir/stdc/type/integer.c.o"
+  "command": "/usr/bin/clang -I/home/robert/Personal/Projects/stdc/include -I/home/robert/Personal/Projects/stdc/src -O3 -DNDEBUG -std=c23 -flto=thin -fPIC -Wall -Wextra -Wpedantic -Werror -Wno-pre-c23-compat -Wno-c++98-compat -Wcast-align -Wconversion -Wshadow-all -Wundef -Wdouble-promotion -flto=thin -fstrict-aliasing -Wstrict-aliasing=2 -fno-stack-protector -ffreestanding -nostdlibinc -fno-builtin -Weverything -Wno-padded -Wno-covered-switch-default -Wno-unsafe-buffer-usage -ftrivial-auto-var-init=zero -fno-common -Wvla -fsanitize=undefined -fno-sanitize=function -fsanitize=kcfi -fsanitize-trap=all -fcf-protection=full -o src/CMakeFiles/stdc.dir/stdc/type/uinteger.c.o -c /home/robert/Personal/Projects/stdc/src/stdc/type/uinteger.c",
+  "file": "/home/robert/Personal/Projects/stdc/src/stdc/type/uinteger.c",
+  "output": "/home/robert/Personal/Projects/stdc/build/release-lto/src/CMakeFiles/stdc.dir/stdc/type/uinteger.c.o"
+},
+{
+  "directory": "/home/robert/Personal/Projects/stdc/build/release-lto",
+  "command": "/usr/bin/clang -I/home/robert/Personal/Projects/stdc/include -I/home/robert/Personal/Projects/stdc/src -O3 -DNDEBUG -std=c23 -flto=thin -fPIC -Wall -Wextra -Wpedantic -Werror -Wno-pre-c23-compat -Wno-c++98-compat -Wcast-align -Wconversion -Wshadow-all -Wundef -Wdouble-promotion -flto=thin -fstrict-aliasing -Wstrict-aliasing=2 -fno-stack-protector -ffreestanding -nostdlibinc -fno-builtin -Weverything -Wno-padded -Wno-covered-switch-default -Wno-unsafe-buffer-usage -ftrivial-auto-var-init=zero -fno-common -Wvla -fsanitize=undefined -fno-sanitize=function -fsanitize=kcfi -fsanitize-trap=all -fcf-protection=full -o src/CMakeFiles/stdc.dir/stdc/type/sinteger.c.o -c /home/robert/Personal/Projects/stdc/src/stdc/type/sinteger.c",
+  "file": "/home/robert/Personal/Projects/stdc/src/stdc/type/sinteger.c",
+  "output": "/home/robert/Personal/Projects/stdc/build/release-lto/src/CMakeFiles/stdc.dir/stdc/type/sinteger.c.o"
+},
+{
+  "directory": "/home/robert/Personal/Projects/stdc/build/release-lto",
+  "command": "/usr/bin/clang -I/home/robert/Personal/Projects/stdc/include -I/home/robert/Personal/Projects/stdc/src -O3 -DNDEBUG -std=c23 -flto=thin -fPIC -Wall -Wextra -Wpedantic -Werror -Wno-pre-c23-compat -Wno-c++98-compat -Wcast-align -Wconversion -Wshadow-all -Wundef -Wdouble-promotion -flto=thin -fstrict-aliasing -Wstrict-aliasing=2 -fno-stack-protector -ffreestanding -nostdlibinc -fno-builtin -Weverything -Wno-padded -Wno-covered-switch-default -Wno-unsafe-buffer-usage -ftrivial-auto-var-init=zero -fno-common -Wvla -fsanitize=undefined -fno-sanitize=function -fsanitize=kcfi -fsanitize-trap=all -fcf-protection=full -o src/CMakeFiles/stdc.dir/stdc/type/float.c.o -c /home/robert/Personal/Projects/stdc/src/stdc/type/float.c",
+  "file": "/home/robert/Personal/Projects/stdc/src/stdc/type/float.c",
+  "output": "/home/robert/Personal/Projects/stdc/build/release-lto/src/CMakeFiles/stdc.dir/stdc/type/float.c.o"
 },
 {
   "directory": "/home/robert/Personal/Projects/stdc/build/release-lto",
@@ -37,8 +67,8 @@
 },
 {
   "directory": "/home/robert/Personal/Projects/stdc/build/release-lto",
-  "command": "/usr/bin/clang -I/home/robert/Personal/Projects/stdc/include -O3 -DNDEBUG -std=c23 -flto=thin -fPIE -Wall -Wextra -Wpedantic -Werror -Wno-pre-c23-compat -Wno-c++98-compat -Wcast-align -Wconversion -Wshadow-all -Wundef -Wdouble-promotion -flto=thin -fstrict-aliasing -Wstrict-aliasing=2 -fno-stack-protector -o tests/CMakeFiles/type_enum_test.dir/type_enum_test.c.o -c /home/robert/Personal/Projects/stdc/tests/type_enum_test.c",
-  "file": "/home/robert/Personal/Projects/stdc/tests/type_enum_test.c",
-  "output": "/home/robert/Personal/Projects/stdc/build/release-lto/tests/CMakeFiles/type_enum_test.dir/type_enum_test.c.o"
+  "command": "/usr/bin/clang -I/home/robert/Personal/Projects/stdc/include -I/home/robert/Personal/Projects/stdc/src -O3 -DNDEBUG -std=c23 -flto=thin -fPIC -Wall -Wextra -Wpedantic -Werror -Wno-pre-c23-compat -Wno-c++98-compat -Wcast-align -Wconversion -Wshadow-all -Wundef -Wdouble-promotion -flto=thin -fstrict-aliasing -Wstrict-aliasing=2 -fno-stack-protector -ffreestanding -nostdlibinc -fno-builtin -Weverything -Wno-padded -Wno-covered-switch-default -Wno-unsafe-buffer-usage -ftrivial-auto-var-init=zero -fno-common -Wvla -fsanitize=undefined -fno-sanitize=function -fsanitize=kcfi -fsanitize-trap=all -fcf-protection=full -o src/CMakeFiles/stdc.dir/stdc/type/any.c.o -c /home/robert/Personal/Projects/stdc/src/stdc/type/any.c",
+  "file": "/home/robert/Personal/Projects/stdc/src/stdc/type/any.c",
+  "output": "/home/robert/Personal/Projects/stdc/build/release-lto/src/CMakeFiles/stdc.dir/stdc/type/any.c.o"
 }
 ]

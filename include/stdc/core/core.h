@@ -7,4 +7,6 @@
 #define STDC_MAY_ALIAS
 #endif
 
+typedef void dummy;
+
 #endif /* STDC_CORE_CORE_H */

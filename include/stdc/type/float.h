@@ -3,7 +3,6 @@
 
 #include "stdc/core/core.h"
 #include "stdc/type/base.h"
-#include "stdc/type/limits.h"
 
 /* --- Floating-point types --- */
 #if defined(__GNUC__) || defined(__clang__)

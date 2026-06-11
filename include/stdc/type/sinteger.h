@@ -1,5 +1,5 @@
-#ifndef STDC_TYPE_COMPILETIME_SINTEGER_H
-#define STDC_TYPE_COMPILETIME_SINTEGER_H
+#ifndef STDC_TYPE_SINTEGER_H
+#define STDC_TYPE_SINTEGER_H
 
 #include "stdc/core/core.h"
 #include "stdc/type/base.h"
@@ -165,7 +165,7 @@ STDC_DEFINE_PRIMITIVE_TYPE(
 typedef enum : __UINT32_TYPE__ {
 #define V(category, name, type, member, index) \
   STDC_TYPE_ENUM_MEMBER(category, name, type, member, index)
-#include "stdc/type/compiletime/lists/sinteger.def"
+#include "stdc/type/lists/sinteger.def"
 #undef V
 } SType;
 
@@ -175,7 +175,7 @@ typedef struct {
   union {
 #define V(category, name, type, member, index) \
   STDC_TYPE_UNION_MEMBER(category, name, type, member, index)
-#include "stdc/type/compiletime/lists/sinteger.def"
+#include "stdc/type/lists/sinteger.def"
 #undef V
   };
 } STDC_MAY_ALIAS SVal;

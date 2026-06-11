@@ -3720,3 +3720,445 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:197 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:320 (_ipo_run_language_check)"
+      - "CMakeLists.txt:52 (check_ipo_supported)"
+    directories:
+      source: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/ninja -v
+        [1/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/foo.dir/foo.c.o -MF CMakeFiles/foo.dir/foo.c.o.d -o CMakeFiles/foo.dir/foo.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [2/4] /usr/bin/clang   -g -flto=thin -MD -MT CMakeFiles/boo.dir/main.c.o -MF CMakeFiles/boo.dir/main.c.o.d -o CMakeFiles/boo.dir/main.c.o -c /home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [3/4] : && /usr/bin/cmake -E rm -f libfoo.a && "/usr/bin/llvm-ar" qc libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/llvm-ranlib" libfoo.a && :
+        [4/4] : && /usr/bin/clang -g -flto=thin  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
+        
+      exitCode: 0
+...

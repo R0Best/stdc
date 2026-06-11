@@ -5,7 +5,6 @@
 /home/robert/Personal/Projects/stdc/build/release-lto/src/CMakeFiles/test.dir
 /home/robert/Personal/Projects/stdc/build/release-lto/src/CMakeFiles/edit_cache.dir
 /home/robert/Personal/Projects/stdc/build/release-lto/src/CMakeFiles/rebuild_cache.dir
-/home/robert/Personal/Projects/stdc/build/release-lto/tests/CMakeFiles/type_enum_test.dir
 /home/robert/Personal/Projects/stdc/build/release-lto/tests/CMakeFiles/test.dir
 /home/robert/Personal/Projects/stdc/build/release-lto/tests/CMakeFiles/edit_cache.dir
 /home/robert/Personal/Projects/stdc/build/release-lto/tests/CMakeFiles/rebuild_cache.dir
