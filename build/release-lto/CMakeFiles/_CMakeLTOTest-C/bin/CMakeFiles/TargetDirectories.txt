@@ -1,0 +1,4 @@
+/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir
+/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
+/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
+/home/robert/Personal/Projects/stdc/build/release-lto/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir

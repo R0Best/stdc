@@ -1,0 +1,49 @@
+{
+  "version": 4,
+  "cmakeMinimumRequired": {
+    "major": 4,
+    "minor": 3,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "base-freestanding",
+      "hidden": true,
+      "generator": "Ninja",
+      "toolchainFile": "${sourceDir}/cmake/llvm-toolchain.cmake",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    },
+    {
+      "name": "release-lto",
+      "inherits": "base-freestanding",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "STDC_ENABLE_LTO": "ON",
+        "STDC_STRICT_ALIASING": "ON",
+        "STDC_STACK_PROTECTOR": "OFF"
+      }
+    },
+    {
+      "name": "debug-strict",
+      "inherits": "base-freestanding",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "STDC_ENABLE_LTO": "OFF",
+        "STDC_STACK_PROTECTOR": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "release",
+      "configurePreset": "release-lto"
+    },
+    {
+      "name": "debug",
+      "configurePreset": "debug-strict"
+    }
+  ]
+}

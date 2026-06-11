@@ -1,0 +1,31 @@
+#ifdef STDC_DEFINED_B8
+V (Bool, B8,    B8,    b8,    1 )
+#endif
+
+#ifdef STDC_DEFINED_B16
+V (Bool, B16,   B16,   b16,   2 )
+#endif
+
+#ifdef STDC_DEFINED_B32
+V (Bool, B32,   B32,   b32,   3 )
+#endif
+
+#ifdef STDC_DEFINED_B64
+V (Bool, B64,   B64,   b64,   4 )
+#endif
+
+#ifdef STDC_DEFINED_B128
+V (Bool, B128,  B128,  b128,  5 )
+#endif
+
+#ifdef STDC_DEFINED_B256
+V (Bool, B256,  B256,  b256,  6 )
+#endif
+
+#ifdef STDC_DEFINED_B512
+V (Bool, B512,  B512,  b512,  7 )
+#endif
+
+#ifdef STDC_DEFINED_B1024
+V (Bool, B1024, B1024, b1024, 8 )
+#endif

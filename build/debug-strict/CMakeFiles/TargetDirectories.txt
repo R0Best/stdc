@@ -1,0 +1,11 @@
+/home/robert/Personal/Projects/stdc/build/debug-strict/CMakeFiles/test.dir
+/home/robert/Personal/Projects/stdc/build/debug-strict/CMakeFiles/edit_cache.dir
+/home/robert/Personal/Projects/stdc/build/debug-strict/CMakeFiles/rebuild_cache.dir
+/home/robert/Personal/Projects/stdc/build/debug-strict/src/CMakeFiles/stdc.dir
+/home/robert/Personal/Projects/stdc/build/debug-strict/src/CMakeFiles/test.dir
+/home/robert/Personal/Projects/stdc/build/debug-strict/src/CMakeFiles/edit_cache.dir
+/home/robert/Personal/Projects/stdc/build/debug-strict/src/CMakeFiles/rebuild_cache.dir
+/home/robert/Personal/Projects/stdc/build/debug-strict/tests/CMakeFiles/type_enum_test.dir
+/home/robert/Personal/Projects/stdc/build/debug-strict/tests/CMakeFiles/test.dir
+/home/robert/Personal/Projects/stdc/build/debug-strict/tests/CMakeFiles/edit_cache.dir
+/home/robert/Personal/Projects/stdc/build/debug-strict/tests/CMakeFiles/rebuild_cache.dir

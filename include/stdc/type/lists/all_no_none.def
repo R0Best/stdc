@@ -1,0 +1,6 @@
+#include "stdc/type/lists/bool.def"
+#include "stdc/type/lists/byte.def"
+#include "stdc/type/lists/char.def"
+#include "stdc/type/lists/float.def"
+#include "stdc/type/lists/uinteger.def"
+#include "stdc/type/lists/sinteger.def"

@@ -1,0 +1,10 @@
+# ninja log v7
+0	10	1779133340166145190	src/CMakeFiles/stdc.dir/stdc/core/core.c.o	48da1f1a3eb80a59
+13	26	1779466237401415638	src/libstdc.a	cc1662c47b28c630
+1	13	1779466237389066602	src/CMakeFiles/stdc.dir/stdc/type/bool.c.o	56e8a7d7b1fbf6fb
+1	13	1779466237390257884	src/CMakeFiles/stdc.dir/stdc/type/none.c.o	bf1aca04e48ffb6b
+1	12	1779466237390180207	src/CMakeFiles/stdc.dir/stdc/type/integer.c.o	4b80ee5c05b2f1ab
+1	12	1779466237390017600	src/CMakeFiles/stdc.dir/stdc/type/byte.c.o	4d9a17af696e6465
+1	12	1779466237390100948	src/CMakeFiles/stdc.dir/stdc/type/char.c.o	85fcfc81dd0c7c2e
+1	14	1779466237390327476	tests/CMakeFiles/type_enum_test.dir/type_enum_test.c.o	1109254686e00ce9
+26	42	1779466237414066892	tests/type_enum_test	3321b55d07eb5dfb

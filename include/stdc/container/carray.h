@@ -1,0 +1,6 @@
+#ifndef STDC_CONTAINERS_CARRAY_H
+#define STDC_CONTAINERS_CARRAY_H
+
+#define STDC_DEFINE_CARRAY(Id, Type) typedef Type* CArray##Id;
+
+#endif /* STDC_CONTAINERS_CARRAY_H */

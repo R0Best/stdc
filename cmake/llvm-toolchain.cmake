@@ -1,0 +1,7 @@
+set(CMAKE_C_COMPILER "clang")
+set(CMAKE_AR "llvm-ar")
+set(CMAKE_RANLIB "llvm-ranlib")
+set(CMAKE_LINKER "ld.lld")
+set(CMAKE_NM "llvm-nm")
+set(CMAKE_OBJDUMP "llvm-objdump")
+set(CMAKE_STRIP "llvm-strip")

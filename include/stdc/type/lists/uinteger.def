@@ -1,0 +1,43 @@
+#ifdef STDC_DEFINED_USIZE
+V ( UInt, USize, USize, usize, 1  )
+#endif
+
+#ifdef STDC_DEFINED_UPTR
+V ( UInt, UPtr,  UPtr,  uptr,  2  )
+#endif
+
+#ifdef STDC_DEFINED_UMAX
+V ( UInt, UMax,  UMax,  umax,  3  )
+#endif
+
+#ifdef STDC_DEFINED_U8
+V ( UInt, U8,    U8,    u8,    4  )
+#endif
+
+#ifdef STDC_DEFINED_U16
+V ( UInt, U16,   U16,   u16,   5  )
+#endif
+
+#ifdef STDC_DEFINED_U32
+V ( UInt, U32,   U32,   u32,   6  )
+#endif
+
+#ifdef STDC_DEFINED_U64
+V ( UInt, U64,   U64,   u64,   7  )
+#endif
+
+#ifdef STDC_DEFINED_U128
+V ( UInt, U128,  U128,  u128,  8  )
+#endif
+
+#ifdef STDC_DEFINED_U256
+V ( UInt, U256,  U256,  u256,  9  )
+#endif
+
+#ifdef STDC_DEFINED_U512
+V ( UInt, U512,  U512,  u512,  10 )
+#endif
+
+#ifdef STDC_DEFINED_U1024
+V ( UInt, U1024, U1024, u1024, 11 )
+#endif

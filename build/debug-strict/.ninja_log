@@ -1,0 +1,18 @@
+# ninja log v7
+1	15	1781203175821573700	build.ninja	271c7a2d5fb29b34
+1	15	1781203175820728260	/home/robert/Personal/Projects/stdc/build/debug-strict/cmake_install.cmake	271c7a2d5fb29b34
+1	15	1781203175820989765	/home/robert/Personal/Projects/stdc/build/debug-strict/src/cmake_install.cmake	271c7a2d5fb29b34
+1	15	1781203175820989765	/home/robert/Personal/Projects/stdc/build/debug-strict/tests/cmake_install.cmake	271c7a2d5fb29b34
+1	15	1781203175820784547	/home/robert/Personal/Projects/stdc/build/debug-strict/CTestTestfile.cmake	271c7a2d5fb29b34
+1	15	1781203175821573700	/home/robert/Personal/Projects/stdc/build/debug-strict/tests/CTestTestfile.cmake	271c7a2d5fb29b34
+1	12	1778845820323110323	src/CMakeFiles/stdc.dir/test.c.o	5460df5bdd4a40ec
+11	25	1779474478601332284	src/libstdc.a	d79e63e49bd2c7c3
+0	11	1779474478590332179	src/CMakeFiles/stdc.dir/stdc/core/core.c.o	b7c16a4245282354
+1	12	1781203079117724649	src/CMakeFiles/stdc.dir/stdc/type/bool.c.o	d70039e551caa32
+1	12	1779474420817203744	src/CMakeFiles/stdc.dir/stdc/type/char.c.o	466868b9fd685c3f
+0	12	1781202764058160434	src/CMakeFiles/stdc.dir/stdc/type/none.c.o	27c5461c70456f1e
+1	11	1781203156078066355	src/CMakeFiles/stdc.dir/stdc/type/byte.c.o	45e9fee2a3f6a172
+1	12	1779474420817278575	src/CMakeFiles/stdc.dir/stdc/type/integer.c.o	6bf211995b0d1210
+0	14	1779474478591639999	tests/CMakeFiles/type_enum_test.dir/type_enum_test.c.o	1971d020a780a30c
+25	41	1779474478616332426	tests/type_enum_test	e45c0c11828d07f1
+1	11	1781203175899409819	src/CMakeFiles/stdc.dir/stdc/type/char.c.o	466868b9fd685c3f

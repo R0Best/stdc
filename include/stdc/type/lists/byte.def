@@ -1,0 +1,3 @@
+#ifdef STDC_DEFINED_BYTE
+V ( Byte, Byte, Byte, byte, 1 )
+#endif

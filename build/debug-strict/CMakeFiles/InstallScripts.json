@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/robert/Personal/Projects/stdc/build/debug-strict/cmake_install.cmake",
+		"/home/robert/Personal/Projects/stdc/build/debug-strict/src/cmake_install.cmake",
+		"/home/robert/Personal/Projects/stdc/build/debug-strict/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

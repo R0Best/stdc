@@ -1,0 +1,8 @@
+---
+BasedOnStyle: Google
+BreakAfterAttributes: Always
+AlwaysBreakAfterReturnType: None
+AlignAfterOpenBracket: BlockIndent
+BinPackParameters: AlwaysOnePerLine
+AllowAllParametersOfDeclarationOnNextLine: false
+...

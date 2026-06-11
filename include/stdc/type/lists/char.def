@@ -1,0 +1,15 @@
+#ifdef STDC_DEFINED_C8
+V (Char, C8,   C8,   c8,   1)
+#endif
+
+#ifdef STDC_DEFINED_C16
+V (Char, C16,  C16,  c16,  2)
+#endif
+
+#ifdef STDC_DEFINED_C32
+V (Char, C32,  C32,  c32,  3)
+#endif
+
+#ifdef STDC_DEFINED_CHAR
+V (Char, Char, Char, _char, 4)
+#endif

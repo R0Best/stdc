@@ -1,0 +1,43 @@
+#ifdef STDC_DEFINED_SSIZE 
+V ( SInt, SSize, SSize, ssize, 1  )
+#endif
+
+#ifdef STDC_DEFINED_SPTR
+V ( SInt, SPtr,  SPtr,  sptr,  2  )
+#endif
+
+#ifdef STDC_DEFINED_SMAX
+V ( SInt, SMax,  SMax,  smax,  3  )
+#endif
+
+#ifdef STDC_DEFINED_S8
+V ( SInt, S8,    S8,    s8,    4  )
+#endif
+
+#ifdef STDC_DEFINED_S16
+V ( SInt, S16,   S16,   s16,   5  )
+#endif
+
+#ifdef STDC_DEFINED_S32
+V ( SInt, S32,   S32,   s32,   6  )
+#endif 
+
+#ifdef STDC_DEFINED_S64
+V ( SInt, S64,   S64,   s64,   7  )
+#endif 
+
+#ifdef STDC_DEFINED_S128
+V ( SInt, S128,  S128,  s128,  8  )
+#endif
+
+#ifdef STDC_DEFINED_S256
+V ( SInt, S256,  S256,  s256,  9  )
+#endif
+
+#ifdef STDC_DEFINED_S512
+V ( SInt, S512,  S512,  s512,  10 )
+#endif
+
+#ifdef STDC_DEFINED_S1024
+V ( SInt, S1024, S1024, s1024, 11 )
+#endif

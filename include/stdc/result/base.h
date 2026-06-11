@@ -1,0 +1,4 @@
+#ifndef STDC_RESULT_BASE_H
+#define STDC_RESULT_BASE_H
+
+#endif /* STDC_RESULT_BASE_H */
